@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: rgba(255, 213, 149, 0.829);
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) 
+{
+    background-color: #ffb922b7;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+}
+
+.figure {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cell:hover {
+    cursor: url('cursor1.png'), auto; /* Курсор для первого игрока */
+}
+
+.figure:hover {
+    cursor: url('cursor2.png'), auto; /* Курсор для второго игрока */
+}
+
+
